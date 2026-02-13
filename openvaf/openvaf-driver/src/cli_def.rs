@@ -8,7 +8,7 @@ use clap::{Arg, ArgAction, Command, ValueHint};
 use openvaf::{builtin_lints, get_target_names, host_triple, LintLevel};
 use path_absolutize::Absolutize;
 
-const ABOUT: &str = r"For further information visit https://openvaf.semimod.de.";
+const ABOUT: &str = r"For further information visit https://github.com/arpadbuermen/OpenVAF.";
 
 pub fn main_command() -> Command {
     Command::new("openvaf")
